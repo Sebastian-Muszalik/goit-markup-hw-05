@@ -519,23 +519,66 @@ li {
 }
 .portfolio-imag:hover {
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1), 0px 3px 2px rgba(0, 0, 0, 0.08),
-    4px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-imag:nth-last-child(-n + 3) {
   width: 370px;
   margin: 0 15px 30px 15px;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color4);
+  opacity: 90%;
+  transform: translatey(100%);
+  transition: transform 250ms;
+  padding: 4px 24px 20px 24px;
+}
+.overlay p {
+  position: relative;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-top: 120px;
+}
+.portfolio-item-text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  z-index: 102;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+  position: relative;
+  max-width: 370px;
+  max-height: 404px;
+  overflow: hidden;
+  z-index: 101;
+}
+
+h3 {
+  color: #212121;
+}
+.portfolio-main-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item:hover .overlay {
+  transform: translatey(-80px);
+}
 .ul01 {
   display: flex;
   flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-}
-
-.box:hover {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 3px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .beckgrunt-H1 {
