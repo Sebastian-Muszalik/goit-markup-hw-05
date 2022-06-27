@@ -291,6 +291,8 @@ li {
 }
 
 .foto-item {
+  left: 0px;
+  top: 0px;
   bottom: 0;
   right: 0;
   padding-top: 27px;
