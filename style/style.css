@@ -289,24 +289,25 @@ li {
   min-width: 370px;
   display: block;
 }
+.foto-item-container {
+  position: relative;
+}
 
 .foto-item {
-  left: 0px;
-  top: 0px;
-  bottom: 0;
-  right: 0;
-  padding-top: 27px;
-  padding-bottom: 27px;
   width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  top: 76%;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color);
-  position: relative;
-  background-color: #2f303a;
+  color: #fff;
+  display: flex;
 }
 
 .team-list {
