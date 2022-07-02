@@ -349,6 +349,12 @@ li {
   height: 20px;
   fill: currentcolor;
 }
+.main-icon-item:focus,
+.main-icon-item:hover {
+  fill: #2196f3;
+  background-color: #2196f3;
+}
+
 .main-icon:hover,
 .main-icon:focus {
   background-color: #2196f3;
@@ -783,9 +789,23 @@ li {
 }
 .active::after {
   content: "";
-  border: 2px solid #2196f3;
+  border: 3px solid #2196f3;
   border-radius: 2px;
   display: block;
   position: relative;
   top: 28px;
+}
+:hover,
+:focus {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon {
+  display: inline-flex;
+
+  border-radius: 8px;
+  fill: #2a2a2a;
+}
+
+.icon:hover {
+  fill: rgba(33, 150, 243, 1);
 }
