@@ -143,6 +143,8 @@ a:active {
   color: #2196f3;
   cursor: pointer;
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 a {
   text-decoration: none;
@@ -666,6 +668,8 @@ li {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-top: 20px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-name {
