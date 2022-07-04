@@ -146,6 +146,7 @@ a:active {
   text-decoration: none;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2196f3;
 }
 a {
   text-decoration: none;
@@ -216,6 +217,7 @@ a {
   color: #212121;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #212121;
 }
 
 /* klasa main */
@@ -458,6 +460,8 @@ li {
 .clients-list-item:focus {
   border: 2px solid #2196f3;
   color: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .Web-foot {
   margin: right 93px;
