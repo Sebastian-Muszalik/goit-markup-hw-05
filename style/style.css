@@ -128,16 +128,14 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  transition: 250ms;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-adress {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   color: #757575;
-  transition: 250ms;
-  transition: color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* klasa dla linków  */
@@ -153,8 +151,7 @@ a {
   text-decoration: none;
   color: #212121;
   display: inline;
-  transition: 250ms;
-  transition: color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* klasa button */
 .frame-button:hover {
@@ -177,8 +174,7 @@ a {
 .frame-button2 {
   background: #f5f4fa;
   margin-left: 8px;
-  transition-duration: 250ms;
-  transition: color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-front2 {
   font-style: normal;
@@ -189,8 +185,7 @@ a {
   border-radius: 4px;
   line-height: 1.625em;
   letter-spacing: 0.03em;
-  transition-duration: 250ms;
-  transition: color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-front2:hover {
   color: #ffffff;
@@ -207,8 +202,7 @@ a {
 }
 .frame-button {
   background: #2196f3;
-  transition-duration: 250ms;
-  transition: backgrund-color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: backgrund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-front {
   font-size: 16px;
@@ -219,8 +213,7 @@ a {
   height: 50px;
   left: 700px;
   top: 430px;
-  transition-duration: 250ms;
-  transition: color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-front:hover {
   color: #212121;
@@ -363,8 +356,8 @@ li {
   width: 20px;
   height: 20px;
   fill: currentcolor;
-  transition-duration: 250ms;
-  transition: color, background-color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-icon-item:focus,
 .main-icon-item:hover {
@@ -414,8 +407,7 @@ li {
   margin-bottom: 30px;
   cursor: pointer;
   fill: #afb1b8;
-  transition-duration: 250ms;
-  transition: fill, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list-item:hover {
   fill: #2196f3;
@@ -435,43 +427,37 @@ li {
 .clients-list-item-c01 {
   width: 41px;
   height: 48px;
-  transition-duration: 250ms;
-  transition: border, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-item-c02 {
   width: 40px;
   height: 53px;
-  transition-duration: 250ms;
-  transition: border, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-item-c03 {
   width: 45px;
   height: 42px;
-  transition-duration: 250ms;
-  transition: border, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-item-c04 {
   width: 85px;
   height: 42px;
-  transition-duration: 250ms;
-  transition: border, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-item-c05 {
   width: 63px;
   height: 47px;
-  transition-duration: 250ms;
-  transition: border, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-item-c06 {
   width: 94px;
   height: 45px;
-  transition-duration: 250ms;
-  transition: border, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-item:hover,
@@ -572,7 +558,8 @@ li {
   width: 370px;
   margin: 0 15px 30px 15px;
   cursor: pointer;
-  transition: background-color, fill, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-imag:hover {
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1), 0px 3px 2px rgba(0, 0, 0, 0.08),
@@ -644,8 +631,7 @@ li {
   margin-left: 10px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: 250ms;
-  transition: background-color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-list-item-icon {
   width: 20px;
@@ -698,9 +684,7 @@ li {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-top: 20px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: backgrund-color;
+  transition: backgrund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-name {
@@ -767,8 +751,8 @@ li {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%);
-  transition-duration: 250ms;
-  transition: backgrund-color, fill, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: backgrund-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
@@ -782,8 +766,8 @@ li {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.2);
-  transition-duration: 250ms;
-  transition: backgrund-color, fill, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: backgrund-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn {
@@ -803,8 +787,8 @@ li {
   height: 100%;
   transform: translateY(100%);
   background-color: rgba(33, 150, 243, 0.9);
-  transition-duration: 250ms;
-  transition: backgrund-color, fill, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: backgrund-color 1s cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-nav:hover {
   color: #2196f3;
